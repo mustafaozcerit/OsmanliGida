@@ -1,0 +1,215 @@
+# Translation of Themes - Yummy Recipe in Turkish
+# This file is distributed under the same license as the Themes - Yummy Recipe package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-14 08:32:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: tr\n"
+"Project-Id-Version: Themes - Yummy Recipe\n"
+
+#. Theme Name of the theme
+msgid "Yummy Recipe"
+msgstr "Yummy Recipe"
+
+#. Description of the theme
+msgid "Yummy Recipe is a perfect theme for creating a professional food blog and recipe website. The theme is mobile-friendly, SEO optimized, Schema friendly, and loads faster to help you rank your recipes higher on search engines. The theme is compatible with the Delicious Recipes plugin to provide top-notch features to easily create and share your recipes. You can easily choose from unlimited colors and 900+ Google fonts to change your website look and feel with a single click. With the Instagram section, you can share your recipe images and grow your followers. It also includes newsletter integration to help you grow your email list and communicate with your readers. Yummy Recipe is translation ready, RTL ready, and WooCommerce compatible. Check demo at https://blossomthemes.com/theme-demo/?theme=yummy-recipe, read the documentation at https://docs.blossomthemes.com/yummy-recipe/, and get support at https://blossomthemes.com/support-ticket/."
+msgstr "Yummy Recipe profesyonel bir gıda ve tarif web sitesi oluşturmak için mükemmel bir temadır. Mobil aygıtlarla uyumludur, Arama motorları ve şema uyumluluğu ile tariflerin daha yüksek sıralarda görüntülenmesine yardımcı olur. Tema, tarifleri kolayca oluşturmak ve paylaşmak için birinci sınıf özellikler sağlayan Delicious Recipes eklentisi ile uyumludur. Web sitenizin görünümünü ve duygusunu tek bir tıklamayla değiştirmek için sınırsız renkler ve 900 üzerinde Google yazı tipi arasından seçim yapabilirsiniz. Instagram bölümünü kullanarak yemek tariflerinin görsellerini paylaşabilir ve takipçilerinizi arttırabilirsiniz. Ayrıca, e-posta listenizi büyütmenize ve okuyucularınızla iletişim kurmanıza yardımcı olmak için duyuru bütünleştirmesi de vardır. Yummy Recipe arayüzü başka dillere çevrilmeye hazırdır. Sağdan sola yazılan dilleri de destekler ve WooCommerce eklentisi ile de uyumludur. https://blossomthemes.com/theme-demo/?theme=yummy-recipe adresinden tanıtım sitesine bakabilir, https://docs.blossomthemes.com/yummy-recipe/ adresinden belgeleri inceleyebilir ve https://blossomthemes.com/support-ticket/ adresinden destek alabilirsiniz."
+
+#: functions.php:187
+msgid "Change the font size of your site."
+msgstr "Sitenizin yazı boyutunu değiştirin."
+
+#: functions.php:164
+msgid "Secondary font of the site."
+msgstr "Sitenin ikincil yazı tipi."
+
+#: functions.php:142
+msgid "Primary font of the site."
+msgstr "Sitenin birincil yazı tipi."
+
+#: functions.php:110
+msgid "Primary color of the theme."
+msgstr "Temanın birincil rengi."
+
+#: functions.php:91
+msgid "Customize Typography, Header Image & Background Image"
+msgstr "Tipografiyi, başlık görselini ve arka plan görselini özelleştirin"
+
+#: functions.php:988
+msgid "https://wordpress.org/"
+msgstr "https://tr.wordpress.org/"
+
+#: functions.php:814
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: functions.php:548
+msgid "Read More"
+msgstr "Devamını oku"
+
+#: functions.php:1030
+msgid "Regenerate Thumbnails"
+msgstr "Küçük Görselleri Yeniden Oluştur"
+
+#: functions.php:1025
+msgid "BlossomThemes Social Feed"
+msgstr "BlossomThemes Sosyal Ağ Akışı"
+
+#: functions.php:1020
+msgid "BlossomThemes Email Newsletter"
+msgstr "BlossomThemes E-posta Haberleri"
+
+#: functions.php:1015
+msgid "BlossomThemes Toolkit"
+msgstr "BlossomThemes Araçları"
+
+#: functions.php:1010
+msgid "Delicious Recipes – WordPress Recipe Plugin"
+msgstr "Delicious Recipes - WordPress Tarif Eklentisi"
+
+#: functions.php:988
+msgid " Powered by %s. "
+msgstr " %s kullanılarak hazırlanmıştır. "
+
+#: functions.php:986
+msgid " Yummy Recipe | Developed By "
+msgstr " Yummy Recipe | Geliştiren "
+
+#: functions.php:842
+msgctxt "Site Title Font: on or off"
+msgid "on"
+msgstr "açık"
+
+#: functions.php:841
+msgctxt "Secondary Font: on or off"
+msgid "on"
+msgstr "açık"
+
+#. Translators: If there are characters in your language that are not supported
+#. by respective fonts, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:840
+msgctxt "Primary Font: on or off"
+msgid "on"
+msgstr "açık"
+
+#: functions.php:547
+msgid "Find great adventure holidays and activities around the planet."
+msgstr "Dünyanın çeşitli yerlerinden harika macera gezileri ve aktiviteler bulun."
+
+#: functions.php:546
+msgid "Find Your Best Holiday"
+msgstr "En İyi Tatili Bulun"
+
+#: functions.php:393
+msgid "This is the general sidebar layout for whole site."
+msgstr "Tüm site için genel yan çubuk görünümü."
+
+#: functions.php:392
+msgid "Default Sidebar Layout"
+msgstr "Varsayılan Yan Çubuk Görünümü"
+
+#: functions.php:366
+msgid "This is the general sidebar layout for posts & custom post. You can override the sidebar layout for individual post in respective post."
+msgstr "Yazı ve özel yazılar için yan çubuk görünümü. İlgili yazılardaki belirli bir yazı için yan çubuk görünümünü değiştirebilirsiniz."
+
+#: functions.php:365
+msgid "Post Sidebar Layout"
+msgstr "Yazı Yan Çubuk Görünümü"
+
+#: functions.php:339
+msgid "This is the general sidebar layout for pages. You can override the sidebar layout for individual page in respective page."
+msgstr "Sayfalar için yan çubuk görünümü. İlgili sayfadaki belirli bir sayfa için yan çubuk görünümünü değiştirebilirsiniz."
+
+#: functions.php:338
+msgid "Page Sidebar Layout"
+msgstr "Sayfa Yan Çubuk Görünümü"
+
+#: functions.php:318
+msgid "General Sidebar Layout"
+msgstr "Genel Yan Çubuk Görünümü"
+
+#: functions.php:305
+msgid "Choose the layout of the slider for your site."
+msgstr "Sitenizde görüntülenecek kaydırıcı görünümünü seçin."
+
+#: functions.php:284 functions.php:304
+msgid "Slider Layout"
+msgstr "Kaydırıcı Görünümü"
+
+#: functions.php:271
+msgid "Choose the layout of the homepage for your site."
+msgstr "Sitenizin ana sayfasının nasıl görünmesini istediğinizi seçin."
+
+#: functions.php:270
+msgid "Homepage Layout"
+msgstr "Ana Sayfa Görünümü"
+
+#: functions.php:250
+msgid "Home Page Layout"
+msgstr "Ana Sayfa Görünümü"
+
+#: functions.php:237
+msgid "This is the layout for header."
+msgstr "Başlık görünümü."
+
+#: functions.php:216 functions.php:236
+msgid "Header Layout"
+msgstr "Başlık Görünümü"
+
+#: functions.php:208
+msgid "Layout Settings"
+msgstr "Görünüm Ayarları"
+
+#: functions.php:186
+msgid "Font Size"
+msgstr "Yazı Boyutu"
+
+#: functions.php:163
+msgid "Secondary Font"
+msgstr "İkincil Yazı Tipi"
+
+#: functions.php:141
+msgid "Primary Font"
+msgstr "Birincil Yazı Tipi"
+
+#: functions.php:121
+msgid "Typography Settings"
+msgstr "Tipografi Ayarları"
+
+#: functions.php:109
+msgid "Primary Color"
+msgstr "Birincil Renk"
+
+#: functions.php:90
+msgid "Appearance Settings"
+msgstr "Görünüm Ayarları"
+
+#: functions.php:72
+msgid "Documentation Link: %1$sClick here.%2$s"
+msgstr "Belgeler Bağlantısı: %1$sBuraya tıklayın.%2$s"
+
+#: functions.php:70
+msgid "Demo Link: %1$sClick here.%2$s"
+msgstr "Tanıtım Bağlantısı: %1$sBuraya tıklayın.%2$s"
+
+#: functions.php:57
+msgid "Demo & Documentation"
+msgstr "Tanıtım ve Belgeler"
+
+#. Author URI of the theme
+msgid "https://blossomthemes.com/"
+msgstr "https://blossomthemes.com/"
+
+#. Author of the theme
+#: functions.php:987
+msgid "Blossom Themes"
+msgstr "Blossom Themes"
+
+#. Theme URI of the theme
+msgid "https://blossomthemes.com/downloads/yummy-recipe/"
+msgstr "https://blossomthemes.com/downloads/yummy-recipe/"

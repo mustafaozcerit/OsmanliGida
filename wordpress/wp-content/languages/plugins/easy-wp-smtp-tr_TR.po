@@ -1,0 +1,482 @@
+# Translation of Plugins - Easy WP SMTP - Development (trunk) in Turkish
+# This file is distributed under the same license as the Plugins - Easy WP SMTP - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-25 18:30:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - Easy WP SMTP - Development (trunk)\n"
+
+#: class-easywpsmtp-admin.php:276
+msgid "Optional. This email address will be used in the 'BCC' field of the outgoing emails. Use this option carefully since all your outgoing emails from this site will add this address to the BCC field. You can also enter multiple email addresses (comma separated)."
+msgstr "İsteğe bağlı. Bu e-posta adresi, giden e-postaların 'BCC' alanında kullanılacaktır. Bu siteden tüm giden e-postalarınız bu adresi BCC alanına ekleyeceğinden, bu seçeneği dikkatli kullanın. Birden çok e-posta adresi de girebilirsiniz (virgülle ayrılmış)."
+
+#: class-easywpsmtp-admin.php:273
+msgid "BCC Email Address"
+msgstr "BCC E-posta Adresi"
+
+#: class-easywpsmtp-admin.php:268
+msgid "When enabled, the plugin will substitute occurances of the above From Email with the Reply-To Email address. The Reply-To Email will still be used if no other Reply-To Email is present. This option can prevent conflicts with other plugins that specify reply-to email addresses but still replaces the From Email with the Reply-To Email."
+msgstr "Etkinleştirildiğinde, eklenti yukarıdaki E-posta Gönderenlerin yanıtlarını E-postaya Yanıtla adresiyle değiştirir. Başka Yanıtlama E-postası yoksa Yanıtlama E-postası yine de kullanılır. Bu seçenek, yanıt e-posta adreslerini belirten ancak Gönderen E-postasından Yanıtla E-postası ile değiştirilen diğer eklentilerle çakışmaları önleyebilir."
+
+#: class-easywpsmtp-admin.php:266
+msgid "Substitute Mode"
+msgstr "Yedek Mod"
+
+#: easy-wp-smtp.php:461
+msgid "Can't clear log - file is not writeable."
+msgstr "Günlük temizlenemiyor - dosya yazdırılabilir değil."
+
+#: class-easywpsmtp-admin.php:443
+msgid "Warning! This can't be undone."
+msgstr "Dikkat! Bu geri alınamaz."
+
+#: class-easywpsmtp-admin.php:442
+msgid "This will remove ALL your settings and deactivate the plugin. Useful when you're uninstalling the plugin and want to completely remove all crucial data stored in the database."
+msgstr "Bu, TÜM ayarlarınızı kaldıracak ve eklentiyi devre dışı bırakacaktır. Eklentiyi kaldırırken ve veritabanında depolanan tüm önemli verileri tamamen kaldırmak istediğinizde kullanışlıdır."
+
+#: class-easywpsmtp-admin.php:442
+msgid "Self-destruct"
+msgstr "Kendini imha"
+
+#: class-easywpsmtp-admin.php:440
+msgid "Delete Settings and Deactivate Plugin"
+msgstr "Ayarları Sil ve Eklentiyi Devre Dışı Bırak"
+
+#: class-easywpsmtp-admin.php:436
+msgid "Use this to import plugin settings from a file. Note this would replace all your existing settings, so use with caution."
+msgstr "Eklenti ayarlarını bir dosyadan içe aktarmak için bunu kullanın. Bunun mevcut ayarlarınızın yerine geçeceğine dikkat edin, bu nedenle dikkatli kullanın."
+
+#: class-easywpsmtp-admin.php:435
+msgid "Import Settings"
+msgstr "İçe Aktarma Seçenekleri"
+
+#: class-easywpsmtp-admin.php:433
+msgid "Use this to export plugin settings to a file."
+msgstr "Eklenti ayarlarını bir dosyaya aktarmak için bunu kullanın."
+
+#: class-easywpsmtp-admin.php:432
+msgid "Export Settings"
+msgstr "Dışa Aktarma Seçenekleri"
+
+#: class-easywpsmtp-admin.php:430
+msgid "Export\\Import Settings"
+msgstr "Dışa\\İçe Aktarma Ayarları"
+
+#: class-easywpsmtp-admin.php:427
+msgid "Actions in this section can (and some of them will) erase or mess up your settings. Use it with caution."
+msgstr "Bu bölümdeki işlemler ayarlarınızı silebilir veya bozabilir. Dikkatli kullanın."
+
+#: class-easywpsmtp-admin.php:425
+msgid "Danger Zone"
+msgstr "Tehlikeli Bölge"
+
+#: class-easywpsmtp-admin.php:44
+msgid "All settings have been deleted and plugin is deactivated."
+msgstr "Tüm ayarlar silindi ve eklenti devre dışı bırakıldı."
+
+#: class-easywpsmtp-admin.php:43
+msgid "Are you sure you want to delete ALL your settings and deactive plugin?"
+msgstr "TÜM ayarlarınızı silmek ve eklentiyi devre dışı bırakmak istediğinizden emin misiniz?"
+
+#: easy-wp-smtp.php:663
+msgid "Please refresh the page and try again."
+msgstr "Lütfen sayfayı yenileyin ve tekrar deneyin."
+
+#: easy-wp-smtp.php:441
+msgid "Settings have been imported successfully."
+msgstr "Ayarlar başarıyla içe aktarıldı."
+
+#: easy-wp-smtp.php:377
+msgid "Error occurred during settings import"
+msgstr "Ayarlar içe aktarılırken hata oluştu"
+
+#. translators: %s is replaced by documentation page URL
+#: class-easywpsmtp-admin.php:566
+msgctxt "%s is replaced by <a target=\"_blank\" href=\"https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197\">Easy WP SMTP</a>"
+msgid "Please visit the %s plugin's documentation page to learn how to use this plugin."
+msgstr "Bu eklentinin nasıl kullanılacağını öğrenmek için lütfen %s eklentisinin dokümantasyon sayfasını ziyaret edin."
+
+#: class-easywpsmtp-admin.php:560
+msgid "Documentation"
+msgstr "Belgeleme"
+
+#: class-easywpsmtp-admin.php:42
+msgid "Sending..."
+msgstr "Gönderiliyor ..."
+
+#: class-easywpsmtp-admin.php:41
+msgid "Error occurred:"
+msgstr "Hata oluştu:"
+
+#: class-easywpsmtp-admin.php:307
+msgid "STARTTLS"
+msgstr "STARTTLS"
+
+#: class-easywpsmtp-admin.php:301
+msgid "SSL/TLS"
+msgstr "SSL/TLS"
+
+#. Author of the plugin
+msgid "wpecommerce, alexanderfoxc"
+msgstr "wpecommerce, alexanderfoxc"
+
+#: class-easywpsmtp-admin.php:498
+msgid "Hide Debug Log"
+msgstr "Hata Ayıklama Günlüğünü Gizle"
+
+#: class-easywpsmtp-admin.php:488 class-easywpsmtp-admin.php:496
+msgid "Show Debug Log"
+msgstr "Hata Ayıklama Günlüğünü Göster"
+
+#: class-easywpsmtp-admin.php:477
+msgid "Test email was successfully sent. No errors occurred during the process."
+msgstr "Test e-postası başarıyla gönderildi. İşlem sırasında hata oluşmadı."
+
+#: class-easywpsmtp-admin.php:474
+msgid "Following error occurred when attempting to send test email:"
+msgstr "Test e-postası göndermeye çalışırken aşağıdaki hata oluştu:"
+
+#: class-easywpsmtp-admin.php:392
+msgid "When enabled, your SMTP password is stored in the database using AES-256 encryption."
+msgstr "Etkinleştirildiğinde, SMTP şifreniz AES-256 şifrelemesi kullanılarak veritabanında saklanır."
+
+#: class-easywpsmtp-admin.php:388
+msgid "Encrypt Password"
+msgstr "Parolayı şifrele"
+
+#. translators: %s is PHP version
+#: class-easywpsmtp-admin.php:87
+msgid "Your PHP version is %s, encryption function requires PHP version 5.3.0 or higher."
+msgstr "PHP sürümünüz %s, şifreleme işlevi 5.3.0 veya üstü PHP sürümleri gerektirir."
+
+#: class-easywpsmtp-admin.php:79
+msgid "PHP OpenSSL extension is not installed on the server. It is required for encryption to work properly. Please contact your server administrator or hosting provider and ask them to install it."
+msgstr "Sunucuda PHP OpenSSL uzantısı yüklü değil. Bu şifrelemenin düzgün çalışması için gereklidir. Lütfen sunucu yöneticinize veya yer sağlayıcınıza başvurun ve yüklemelerini isteyin."
+
+#: class-easywpsmtp-admin.php:76
+msgid "PHP OpenSSL extension is not installed on the server. It's required by Easy WP SMTP plugin to operate properly. Please contact your server administrator or hosting provider and ask them to install it."
+msgstr "Sunucuda PHP OpenSSL uzantısı yüklü değil. Bu Easy WP SMTP eklentisinin düzgün çalışması için gereklidir. Lütfen sunucu yöneticinize veya yer sağlayıcınıza başvurun ve yüklemelerini isteyin."
+
+#: class-easywpsmtp-admin.php:256
+msgid "If email's From Name is empty, the plugin will set the above value regardless."
+msgstr "E-postanın Gönderen Adı boşsa, eklenti yukarıdaki değere bakmaksızın ayarlar."
+
+#: class-easywpsmtp-admin.php:254
+msgid "When enabled, the plugin will set the above From Name for each email. Disable it if you're using contact form plugins, it will prevent the plugin from replacing form submitter's name when contact email is sent."
+msgstr "Etkinleştirildiğinde, eklenti her e-posta için yukarıdaki Gönderen Adını ayarlayacaktır. İletişim formu eklentileri kullanıyorsanız devre dışı bırakın, iletişim e-postası gönderildiğinde eklentinin form gönderen kişinin adını değiştirmesini engeller."
+
+#: class-easywpsmtp-admin.php:252
+msgid "Force From Name Replacement"
+msgstr "Gönderen Adının Değiştirilmesini Zorla"
+
+#: class-easywpsmtp-admin.php:601
+msgid "rating"
+msgstr "puan"
+
+#. translators: %s is replaced by rating link
+#: class-easywpsmtp-admin.php:597
+msgctxt "%s is replaced by \"rating\" link"
+msgid "Like the plugin? Please give us a %s"
+msgstr "Eklentiyi beğendiniz mi? Lütfen bize %s verin"
+
+#: class-easywpsmtp-admin.php:591
+msgid "Rate Us"
+msgstr "Bizi Değerlendirin"
+
+#: class-easywpsmtp-admin.php:584
+msgid "Support Forum"
+msgstr "Destek Forumu"
+
+#. translators: %s is replaced by support forum URL
+#: class-easywpsmtp-admin.php:580
+msgctxt "%s is replaced by \"Support Forum\" link"
+msgid "Having issues or difficulties? You can post your issue on the %s"
+msgstr "Sorun mu yaşıyorsunuz? Sorununuzu %s adresine gönderebilirsiniz."
+
+#: class-easywpsmtp-admin.php:574
+msgid "Support"
+msgstr "Destek"
+
+#: class-easywpsmtp-admin.php:348
+msgid "when you click \"Save Changes\", your actual password is stored in the database and then used to send emails. This field is replaced with a gag (#easywpsmtpgagpass#). This is done to prevent someone with the access to Settings page from seeing your password (using password fields unmasking programs, for example)."
+msgstr "\"Değişiklikleri Kaydet\" i tıkladığınızda, gerçek şifreniz veritabanında saklanır ve daha sonra e-posta göndermek için kullanılır. Bu alan bir gag (#easywpsmtpgagpass#) ile değiştirilir. Bu, Ayarlar sayfasına kişisel olarak parolanızın görmesini engellemek için yapılır (örneğin, parola alanları açılmış programları kullanmak)."
+
+#: class-easywpsmtp-admin.php:402
+msgid "Allows insecure and self-signed SSL certificates on SMTP server. It's highly recommended to keep this option disabled."
+msgstr "SMTP sunucusunda güvenli olmayan ve kendinden imzalı SSL sertifikalarına izin verir. Bu seçeneği devre dışı bırakmanız şiddetle önerilir."
+
+#: class-easywpsmtp-admin.php:399
+msgid "Allow Insecure SSL Certificates"
+msgstr "Güvenli Olmayan SSL Sertifikalarına izin ver"
+
+#: class-easywpsmtp-admin.php:520
+msgid "debug log for this test email will be automatically displayed right after you send it. Test email also ignores \"Enable Domain Check\" option."
+msgstr "Bu test e-postası için hata ayıklama günlüğü, gönderildikten hemen sonra otomatik olarak görüntülenir. Test e-postası, \"Alan Adını Kontrol Et\" seçeneğini de yok sayar."
+
+#: class-easywpsmtp-admin.php:348 class-easywpsmtp-admin.php:411
+#: class-easywpsmtp-admin.php:468 class-easywpsmtp-admin.php:520
+msgctxt "\"Note\" as in \"Note: keep this in mind\""
+msgid "Note:"
+msgstr "Not:"
+
+#: class-easywpsmtp-admin.php:519
+msgid "You can use this section to send an email from your server using the above configured SMTP details to see if the email gets delivered."
+msgstr "E-postanın gönderilip gönderilmeyeceğini görmek için yukarıdaki yapılandırılmış SMTP ayrıntılarını kullanarak sunucunuzdan bir e-posta göndermek için bu bölümü kullanabilirsiniz."
+
+#: class-easywpsmtp-admin.php:468
+msgid "You have unsaved settings. In order to send a test email, you need to go back to previous tab and click \"Save Changes\" button first."
+msgstr "Kaydedilmemiş ayarlarınız bulunuyor. Bir test e-postası göndermek için, önce bir önceki sekmeye gitmeniz ve önce \"Değişiklikleri Kaydet\" düğmesini tıklamanız gerekir."
+
+#: class-easywpsmtp-admin.php:382
+msgid "Block all emails"
+msgstr "Tüm e-postaları engelle"
+
+#: class-easywpsmtp-admin.php:236
+msgid "You can request your hosting provider for the SMTP details of your site. Use the SMTP details provided by your hosting provider to configure the following settings."
+msgstr "Sitenizin SMTP detayları için barındırma sağlayıcınızdan talepte bulunabilirsiniz. Aşağıdaki ayarları yapılandırmak için barındırma sağlayıcınız tarafından sağlanan SMTP ayrıntılarını kullanın."
+
+#: class-easywpsmtp-admin.php:219
+msgid "SMTP Settings"
+msgstr "SMTP Ayarları"
+
+#: easy-wp-smtp.php:455 class-easywpsmtp-admin.php:112
+msgid "Nonce check failed."
+msgstr "Geçici kontrol başarısız oldu."
+
+#: class-easywpsmtp-admin.php:384
+msgid "When enabled, plugin attempts to block ALL emails from being sent out if domain mismtach."
+msgstr "Etkinleştirildiğinde, eklenti, alan eşleşmiyorsa TÜM e-postaların gönderilmesini engellemeye çalışır."
+
+#: class-easywpsmtp-admin.php:371
+msgid "This option is useful when you are using several email aliases on your SMTP server. If you don't want your aliases to be replaced by the address specified in \"From\" field, enter them in this field."
+msgstr "Bu seçenek, SMTP sunucunuzda birkaç e-posta takma adı kullandığınızda kullanışlıdır. Takma adlarınızın \"Gönderen\" alanında belirtilen adresle değiştirilmesini istemiyorsanız, bunları bu alana girin."
+
+#: class-easywpsmtp-admin.php:370
+msgid "Comma separated emails list. Example value: email1@domain.com, email2@domain.com"
+msgstr "Virgülle ayrılmış e-posta listesi. Örnek değer: email1@domain.com, email2@domain.com"
+
+#: class-easywpsmtp-admin.php:367
+msgid "Don't Replace \"From\" Field"
+msgstr "\"Gönderen\" Alanını Değiştirme"
+
+#: class-easywpsmtp-admin.php:363
+msgid "Additional Settings (Optional)"
+msgstr "Ek Ayarlar (İsteğe Bağlı)"
+
+#: class-easywpsmtp-admin.php:221 class-easywpsmtp-admin.php:466
+msgid "Test Email"
+msgstr "Test E-Postası"
+
+#: class-easywpsmtp-admin.php:40
+msgid "Log cleared."
+msgstr "Günlük temizlendi."
+
+#: class-easywpsmtp-admin.php:39
+msgid "Are you sure want to clear log?"
+msgstr "Günlüğü silmek istediğinizden emin misiniz?"
+
+#: class-easywpsmtp-admin.php:413
+msgid "Clear Log"
+msgstr "Günlüğü Temizle"
+
+#: class-easywpsmtp-admin.php:413
+msgid "View Log"
+msgstr "Günlüğü Görüntüle"
+
+#: class-easywpsmtp-admin.php:409
+msgid "Check this box to enable mail debug log"
+msgstr "Posta hata ayıklama günlüğünü etkinleştirmek için bu kutuyu işaretleyin"
+
+#: class-easywpsmtp-admin.php:406
+msgid "Enable Debug Log"
+msgstr "Hata Ayıklama Günlüğünü Etkinleştir"
+
+#: class-easywpsmtp-admin.php:380
+msgid "Coma-separated domains list. Example: domain1.com, domain2.com"
+msgstr "Virgül ile ayrılmış alan adı listesi. Örnek: domain1.com, domain2.com"
+
+#: class-easywpsmtp-admin.php:378
+msgid "This option is usually used by developers only. SMTP settings will be used only if the site is running on following domain(s):"
+msgstr "Bu seçenek genellikle yalnızca geliştiriciler tarafından kullanılır. SMTP ayarları, yalnızca site aşağıdaki alan(lar) da çalışıyorsa kullanılacaktır:"
+
+#: class-easywpsmtp-admin.php:375
+msgid "Enable Domain Check"
+msgstr "Alan Adı Kontrolünü Etkinleştir"
+
+#: class-easywpsmtp-admin.php:220
+msgid "Additional Settings"
+msgstr "Ek Ayarlar"
+
+#: class-easywpsmtp-admin.php:264
+msgid "Optional. This email address will be used in the 'Reply-To' field of the email. Leave it blank to use 'From' email as the reply-to value."
+msgstr "İsteğe bağlı. Bu e-posta adresi, e-postanın 'Yanıtla' alanında kullanılacaktır. E-postada yanıtlama değeri olarak 'Gönderen' kullanmak için boş bırakın."
+
+#: class-easywpsmtp-admin.php:261
+msgid "Reply-To Email Address"
+msgstr "Yanıt E-Posta Adresi"
+
+#: class-easywpsmtp-admin.php:542
+msgid "Write your email message"
+msgstr "E-posta mesajınızı yazın"
+
+#: class-easywpsmtp-admin.php:528
+msgid "Enter the recipient's email address"
+msgstr "Alıcının e-posta adresini girin"
+
+#: class-easywpsmtp-admin.php:233
+msgid "SMTP Configuration Settings"
+msgstr "SMTP Yapılandırma Ayarları"
+
+#: class-easywpsmtp-admin.php:193
+msgid "Please enter a valid email address in the recipient email field."
+msgstr "Lütfen alıcı e-posta alanına geçerli bir e-posta adresi girin."
+
+#: easy-wp-smtp.php:429
+msgid "Please configure your SMTP credentials in the <a href=\"%s\">settings menu</a> in order to send email using Easy WP SMTP plugin."
+msgstr "Easy WP SMTP eklentisini kullanarak e-posta göndermek için lütfen SMTP kimlik bilgilerinizi <a href=\"%s\">ayarlar menüsünde</a> düzenleyin."
+
+#. Author URI of the plugin
+msgid "https://wp-ecommerce.net/"
+msgstr "https://wp-ecommerce.net/"
+
+#. Description of the plugin
+msgid "Send email via SMTP from your WordPress Blog"
+msgstr "WordPress Blog'unuzdan SMTP ile e-posta gönderin"
+
+#. Plugin URI of the plugin
+msgid "https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197"
+msgstr "https://wp-ecommerce.net/easy-wordpress-smtp-send-emails-from-your-wordpress-site-using-a-smtp-server-2197"
+
+#: class-easywpsmtp-admin.php:547
+msgid "Send Test Email"
+msgstr "Test e-postası gönder"
+
+#: class-easywpsmtp-admin.php:539
+msgid "Message"
+msgstr "Mesaj"
+
+#: class-easywpsmtp-admin.php:535
+msgid "Enter a subject for your message"
+msgstr "Mesajınız için bir konu girin"
+
+#: class-easywpsmtp-admin.php:532
+msgid "Subject"
+msgstr "Konu"
+
+#: class-easywpsmtp-admin.php:525
+msgid "To"
+msgstr "Kime"
+
+#: class-easywpsmtp-admin.php:353 class-easywpsmtp-admin.php:418
+msgid "Save Changes"
+msgstr "Değişiklikleri kaydet"
+
+#: class-easywpsmtp-admin.php:347
+msgid "The password to login to your mail server"
+msgstr "Mail sunucunuzun giriş şifresi"
+
+#: class-easywpsmtp-admin.php:344
+msgid "SMTP Password"
+msgstr "SMTP parolası"
+
+#: class-easywpsmtp-admin.php:340
+msgid "The username to login to your mail server"
+msgstr "Mail sunucunuzun kullanıcı adı"
+
+#: class-easywpsmtp-admin.php:337
+msgid "SMTP Username"
+msgstr "SMTP kullanıcı adı"
+
+#: class-easywpsmtp-admin.php:333
+msgid "This options should always be checked 'Yes'"
+msgstr "Bu seçenekler daima 'Evet' olarak işaretlenmelidir"
+
+#: class-easywpsmtp-admin.php:332
+msgid "Yes"
+msgstr "Evet"
+
+#: class-easywpsmtp-admin.php:326
+msgid "No"
+msgstr "Hayır"
+
+#: class-easywpsmtp-admin.php:319
+msgid "SMTP Authentication"
+msgstr "SMTP Kimlik Doğrulaması"
+
+#: class-easywpsmtp-admin.php:315
+msgid "The port to your mail server"
+msgstr "Posta sunucunuza bağlantı noktası"
+
+#: class-easywpsmtp-admin.php:312
+msgid "SMTP Port"
+msgstr "SMTP portu"
+
+#: class-easywpsmtp-admin.php:308
+msgid "For most servers SSL/TLS is the recommended option"
+msgstr "Çoğu sunucu için SSL/TLS önerilen seçenektir"
+
+#: class-easywpsmtp-admin.php:295
+msgid "None"
+msgstr "Hiçbiri"
+
+#: class-easywpsmtp-admin.php:288
+msgid "Type of Encryption"
+msgstr "Şifreleme Türü"
+
+#: class-easywpsmtp-admin.php:284
+msgid "Your mail server"
+msgstr "Mail sunucunuz"
+
+#: class-easywpsmtp-admin.php:281
+msgid "SMTP Host"
+msgstr "SMTP sunucusu"
+
+#: class-easywpsmtp-admin.php:250
+msgid "This text will be used in the 'FROM' field"
+msgstr "Bu metin 'Gönderen' alanında kullanılacaktır"
+
+#: class-easywpsmtp-admin.php:247
+msgid "From Name"
+msgstr "Gönderen Adı"
+
+#: class-easywpsmtp-admin.php:243
+msgid "This email address will be used in the 'From' field."
+msgstr "Bu e-posta adresi 'Gönderen' alanında kullanılacaktır."
+
+#: class-easywpsmtp-admin.php:240
+msgid "From Email Address"
+msgstr "Gönderen E-Posta Adresi"
+
+#: class-easywpsmtp-admin.php:92
+msgid "Easy WP SMTP Settings"
+msgstr "Easy WP SMTP ayarları"
+
+#: class-easywpsmtp-admin.php:181
+msgid "Settings are not saved."
+msgstr "Ayarlar kaydedilmedi."
+
+#: class-easywpsmtp-admin.php:179
+msgid "Settings saved."
+msgstr "Ayarlar kaydedildi."
+
+#: class-easywpsmtp-admin.php:170
+msgid "Please enter a valid port in the 'SMTP Port' field."
+msgstr "Lütfen 'SMTP Port' alanına geçerli bir port giriniz."
+
+#: class-easywpsmtp-admin.php:123
+msgid "Please enter a valid email address in the 'FROM' field."
+msgstr "Lütfen 'Gönderen' alanına geçerli bir e-posta adresi girin."
+
+#: easy-wp-smtp.php:490 easy-wp-smtp.php:498
+msgid "Settings"
+msgstr "Ayarlar"
+
+#. Plugin Name of the plugin
+#: class-easywpsmtp-admin.php:59
+msgid "Easy WP SMTP"
+msgstr "Easy WP SMTP"

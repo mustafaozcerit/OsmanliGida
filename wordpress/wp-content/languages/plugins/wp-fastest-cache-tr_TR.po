@@ -1,0 +1,611 @@
+# Translation of Plugins - WP Fastest Cache - Stable (latest release) in Turkish
+# This file is distributed under the same license as the Plugins - WP Fastest Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-03-24 23:28:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: tr\n"
+"Project-Id-Version: Plugins - WP Fastest Cache - Stable (latest release)\n"
+
+#: templates/toolbar_settings.php:71
+msgid "Save"
+msgstr "Kaydet"
+
+#: templates/toolbar_settings.php:68
+msgid "Cancel"
+msgstr "İptal Et"
+
+#: templates/toolbar_settings.php:20
+msgid "Toolbar Settings"
+msgstr "Araç Çubuğu Ayarları"
+
+#: inc/admin-toolbar.php:73 inc/admin-toolbar.php:105
+msgid "Clear Cache of All Sites"
+msgstr "Tüm Sitelerin Önbelleğini Temizle"
+
+#: wpFastestCache.php:343
+msgid "<a href=\"%s\">Settings</a>"
+msgstr "<a href=\"%s\">Ayarlar</a>"
+
+#: inc/single-preload.php:85
+msgid "Cache is generated for this content"
+msgstr "Bu içerik için önbellek oluşturuldu"
+
+#: inc/single-preload.php:115
+msgid "Cache has been generated for this content successfully"
+msgstr "Bu içerik için önbellek başarılı bir şekilde oluşturuldu"
+
+#: inc/column.php:15
+msgid "Clear Cache"
+msgstr "Önbelleği Temizle"
+
+#: inc/admin.php:1273 inc/admin.php:1279 inc/admin.php:1286
+msgid "Eliminate render-blocking JavaScript resources"
+msgstr "Oluşturmayı engelleyen JavaScript kaynaklarını kaldır"
+
+#: inc/admin.php:430 inc/admin.php:433
+msgid "Options have been saved"
+msgstr "Seçenekler kaydedildi"
+
+#: inc/admin-toolbar.php:113 inc/admin.php:1011
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: inc/admin-toolbar.php:85 inc/admin.php:1012 inc/admin.php:1466
+msgid "Delete Cache"
+msgstr "Önbellek Temizleme"
+
+#: inc/admin.php:1014
+msgid "Image Optimization"
+msgstr "Resim Optimizasyonu"
+
+#: inc/admin.php:1016
+msgid "Exclude"
+msgstr "Hariç"
+
+#: inc/admin.php:1044
+msgid "Cache System"
+msgstr "Önbellek"
+
+#: inc/admin.php:1045
+msgid "Enable"
+msgstr "Aktif"
+
+#: inc/admin.php:1054 inc/admin.php:1060 inc/admin.php:1067 inc/admin.php:1074
+msgid "Widget Cache"
+msgstr "Bileşen Önbellek"
+
+#: inc/admin.php:1055 inc/admin.php:1061 inc/admin.php:1068 inc/admin.php:1075
+msgid "Reduce the number of SQL queries"
+msgstr "SQL sorgu sayısını azalt"
+
+#: templates/preload.php:27 inc/admin.php:1083
+msgid "Preload"
+msgstr "Önyükleme"
+
+#: inc/admin.php:1084
+msgid "Create the cache of all the site automatically"
+msgstr "Tüm sitenin önbelleğini otomatik oluştur"
+
+#: inc/admin.php:1093
+msgid "Logged-in Users"
+msgstr "Giriş Yapan Kullanıcı"
+
+#: inc/admin.php:1094
+msgid "Don't show the cached version for logged-in users"
+msgstr "Giriş yapan kullanıcılara önbelleği gösterme"
+
+#: inc/admin.php:1098
+msgid "Mobile"
+msgstr "Mobil"
+
+#: inc/admin.php:1099
+msgid "Don't show the cached version for desktop to mobile devices"
+msgstr "Mobil kullanıcılara masaüstü için oluşturulan önbelleği gösterme"
+
+#: inc/admin.php:1104 inc/admin.php:1130
+msgid "Mobile Theme"
+msgstr "Mobil Tema"
+
+#: inc/admin.php:1105 inc/admin.php:1131
+msgid "Create cache for mobile theme"
+msgstr "Mobil temalar için önbellek oluşturma"
+
+#: templates/newpost.php:18 inc/admin.php:1137
+msgid "New Post"
+msgstr "Yeni Yazı"
+
+#: inc/admin.php:1138
+msgid "Clear cache files when a post or page is published"
+msgstr "Yeni bir yazı veya sayfa yayımlandığında önbelleği temizle"
+
+#: templates/updatepost.php:18 inc/admin.php:1144
+msgid "Update Post"
+msgstr "Yazı Güncelleme"
+
+#: inc/admin.php:1145
+msgid "Clear cache files when a post or page is updated"
+msgstr "Bir yazı ya da sayfa düzenlendiğinde önbelleği temizle"
+
+#: inc/admin.php:1153
+msgid "Minify HTML"
+msgstr "HTML Küçült"
+
+#: inc/admin.php:1154
+msgid "You can decrease the size of page"
+msgstr "Sayfanın boyutunu küçültebilirsiniz"
+
+#: inc/admin.php:1160 inc/admin.php:1165
+msgid "Minify HTML Plus"
+msgstr "HTML Küçült Ektra"
+
+#: inc/admin.php:1161 inc/admin.php:1166
+msgid "More powerful minify html"
+msgstr "Daha güçlü html küçültme aracı"
+
+#: inc/admin.php:1173
+msgid "Minify Css"
+msgstr "Css Küçült"
+
+#: inc/admin.php:1174
+msgid "You can decrease the size of css files"
+msgstr "CSS dosyalarının boyununu küçültebilirsiniz"
+
+#: inc/admin.php:1182 inc/admin.php:1187
+msgid "Minify Css Plus"
+msgstr "CSS Küçült"
+
+#: inc/admin.php:1183 inc/admin.php:1188
+msgid "More powerful minify css"
+msgstr "Daha güçlü css küçültme aracı"
+
+#: inc/admin.php:1194
+msgid "Combine Css"
+msgstr "Css Birleştir"
+
+#: inc/admin.php:1195
+msgid "Reduce HTTP requests through combined css files"
+msgstr "CSS dosyalarını birleştirerek HTTP isteklerini azaltın"
+
+#: inc/admin.php:1202 inc/admin.php:1207 inc/admin.php:1213
+msgid "Minify Js"
+msgstr "JS Küçült"
+
+#: inc/admin.php:1203 inc/admin.php:1208 inc/admin.php:1214
+msgid "You can decrease the size of js files"
+msgstr "JS dosyalarının boyununu küçültebilirsiniz"
+
+#: inc/admin.php:1219
+msgid "Combine Js"
+msgstr "Js Birleştir"
+
+#: inc/admin.php:1220 inc/admin.php:1228 inc/admin.php:1234 inc/admin.php:1240
+msgid "Reduce HTTP requests through combined js files"
+msgstr "JS dosyalarını birleştirerek HTTP isteklerini azaltın"
+
+#: inc/admin.php:1226 inc/admin.php:1233 inc/admin.php:1239
+msgid "Combine Js Plus"
+msgstr "Js Birleştir Ekstra"
+
+#: inc/admin.php:1245
+msgid "Gzip"
+msgstr "Gzip"
+
+#: inc/admin.php:1246
+msgid "Reduce the size of files sent from your server"
+msgstr "Sunucudan gönderilen dosyaların boyutunu küçült"
+
+#: inc/admin.php:1257
+msgid "Browser Caching"
+msgstr "Tarayıcı Önbellek"
+
+#: inc/admin.php:1258
+msgid "Reduce page load times for repeat visitors"
+msgstr "Sürekli gelen kullanıcılar için sayfa yüklenme hızını azalt"
+
+#: inc/admin.php:1263
+msgid "Disable Emojis"
+msgstr "Emojileri Kapat"
+
+#: inc/admin.php:1264
+msgid "You can remove the emoji inline css and wp-emoji-release.min.js"
+msgstr "emoji inline css ve wp-emoji-release.min.js kaynağını kaldırabilirsiniz"
+
+#: inc/admin.php:1272 inc/admin.php:1278 inc/admin.php:1285
+msgid "Render Blocking Js"
+msgstr "Oluşturma Engelleyici Js"
+
+#: inc/admin.php:1298 inc/admin.php:1304 inc/admin.php:1311
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: inc/admin.php:1299 inc/admin.php:1305 inc/admin.php:1312
+msgid "Load Google Fonts asynchronously"
+msgstr "Google Fontlarını eş zamansız (asenkron) olarak yükle"
+
+#: inc/admin.php:1328 inc/admin.php:1342 inc/admin.php:1349
+msgid "Load images and iframes when they enter the browsers viewport"
+msgstr "Resimleri ve iframleri tarayıcının görünen alanına gelince yükle"
+
+#: inc/admin.php:1419 inc/admin.php:2045 inc/admin.php:2211
+msgid "Only available in Premium version"
+msgstr "Sadece Premium versiyonda mevcut"
+
+#: inc/admin.php:1426
+msgid "Cache Statistics"
+msgstr "Önbellek İstatistikleri"
+
+#: inc/admin.php:1475
+msgid "You can delete all cache files"
+msgstr "Tüm önbelleği temizleyebilirsiniz"
+
+#: inc/admin.php:1476 inc/admin.php:1490 inc/admin.php:1491
+msgid "Target folder"
+msgstr "Hedef Klasör"
+
+#: inc/admin-toolbar.php:97 inc/admin.php:1484
+msgid "Delete Cache and Minified CSS/JS"
+msgstr "Önbellek ve küçültülen CSS/JS'leri sil"
+
+#: inc/admin.php:1488
+msgid "If you modify any css file, you have to delete minified css files"
+msgstr "Eğer bir css dosyası değiştirdiyseniz, küçültülmüş olan css/js dosyalarını da temizlemelisiniz"
+
+#: inc/admin.php:1489
+msgid "All cache files will be removed as well"
+msgstr "Tüm önbellek dosyaları da silinecek"
+
+#: inc/admin.php:1505
+msgid "Timeout Rules"
+msgstr "Zaman Aşımı Kuralları"
+
+#: templates/timeout.php:95 inc/admin.php:1512
+msgid "All"
+msgstr "Tümü"
+
+#: templates/timeout.php:96 templates/exclude.php:93 inc/admin.php:1513
+#: inc/admin.php:1779
+msgid "Home Page"
+msgstr "Ana Sayfa"
+
+#: templates/timeout.php:97 templates/exclude.php:102 inc/admin.php:1514
+#: inc/admin.php:1786
+msgid "Starts With"
+msgstr "ile başlıyorsa"
+
+#: templates/timeout.php:99 templates/exclude.php:103 inc/admin.php:1515
+#: inc/admin.php:1787
+msgid "Contains"
+msgstr "İçeriyorsa"
+
+#: templates/timeout.php:98 templates/exclude.php:104 inc/admin.php:1516
+#: inc/admin.php:1788
+msgid "Is Equal To"
+msgstr "Eşit ise"
+
+#: inc/admin.php:1548 inc/admin.php:1811 inc/admin.php:1828 inc/admin.php:1847
+#: inc/admin.php:1865 inc/admin.php:1885
+msgid "Add New Rule"
+msgstr "Yeni Kural Ekle"
+
+#: inc/admin.php:1622
+msgid "Optimize Image Tool"
+msgstr "Resim Optimizasyon Aracı"
+
+#: inc/admin.php:1646
+msgid "Discover Features"
+msgstr "Özellikleri Keşfet"
+
+#: inc/admin.php:1649
+msgid "In the premium version there are some new features which speed up the sites more."
+msgstr "Premium versiyonda siteleri daha fazla hızlandıran bazı yeni özellikler var."
+
+#: inc/admin.php:1655
+msgid "New Features"
+msgstr "Yeni Özellikler"
+
+#: inc/admin.php:1669
+msgid "Checkout"
+msgstr "Ödeme"
+
+#: inc/admin.php:1672
+msgid "You need to pay before downloading the premium version."
+msgstr "Premium sürümü indirmeden önce ödeme yapmanız gerekiyor."
+
+#: inc/admin.php:1684
+msgid "Just"
+msgstr "Sadece"
+
+#: inc/admin.php:1685
+msgid "The download button will be available after paid. You can buy the premium version now."
+msgstr "İndirme düğmesi ödeme yaptıktan sonra aktif olacaktır. Şimdi premium sürümünü satın alabilirsiniz."
+
+#: inc/admin.php:1690
+msgid "Purchased"
+msgstr "Satın Alındı"
+
+#: inc/admin.php:1705
+msgid "Buy"
+msgstr "Satın Al"
+
+#: inc/admin.php:1718
+msgid "Download & Update"
+msgstr "İndir & Güncelle"
+
+#: inc/admin.php:1721
+msgid "You can download and update the premium when you want if you paid."
+msgstr "Ödeme yaptıysanız istediğiniz zaman premium'u indirebilir ve güncelleyebilirsiniz."
+
+#: inc/admin.php:1727
+msgid "Get It Now!"
+msgstr "Hemen Al!"
+
+#: inc/admin.php:1728
+msgid "Please don't delete the free version. Premium version works with the free version."
+msgstr "Lütfen ücretsiz sürümü silmeyin. Premium sürüm ücretsiz sürümü ile çalışır."
+
+#: inc/admin.php:1734
+msgid "Update"
+msgstr "Güncelle"
+
+#: inc/admin.php:1739
+msgid "Download"
+msgstr "İndir"
+
+#: templates/preload.php:48 templates/exclude.php:94 inc/admin.php:1780
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: templates/preload.php:56 templates/exclude.php:95 inc/admin.php:1781
+msgid "Tags"
+msgstr "Etiketler"
+
+#: templates/preload.php:44 templates/exclude.php:96 inc/admin.php:1783
+msgid "Posts"
+msgstr "Yazılar"
+
+#: templates/preload.php:52 templates/exclude.php:97 inc/admin.php:1784
+msgid "Pages"
+msgstr "Sayfalar"
+
+#: templates/preload.php:60 templates/exclude.php:101 inc/admin.php:1785
+msgid "Attachments"
+msgstr "Ekler"
+
+#: templates/exclude.php:105 inc/admin.php:1789
+msgid "has Google Analytics Parameters"
+msgstr "Google Analytics Parametereleri içeriyorsa"
+
+#: inc/admin.php:1807
+msgid "Exclude Pages"
+msgstr "Hariç Tutulan Sayfalar"
+
+#: inc/admin.php:1824
+msgid "Exclude User-Agents"
+msgstr "Hariç Tutulan User-Agent"
+
+#: inc/admin.php:1843
+msgid "Exclude Cookies"
+msgstr "Hariç Tutulan Cookie"
+
+#: inc/admin.php:1861
+msgid "Exclude CSS"
+msgstr "Hariç Tutulan CSS"
+
+#: inc/admin.php:1881
+msgid "Exclude JS"
+msgstr "Hariç Tutulan JS"
+
+#: inc/admin.php:1918
+msgid "CDN Settings"
+msgstr "CDN Ayarları"
+
+#: inc/admin.php:2030
+msgid "Database Cleanup"
+msgstr "Veritabanı Temizleme"
+
+#: templates/disable_wp_cron.php:20
+msgid "Warning"
+msgstr "Uyarı"
+
+#: templates/timeout.php:91 templates/exclude.php:89
+msgid "If REQUEST_URI"
+msgstr "Eğer REQUEST_URI"
+
+#: templates/lazy_load.php:9
+msgid "Lazy Load Settings"
+msgstr "Lazy Load Ayarları"
+
+#: templates/newpost.php:29
+msgid "What do you want to happen after publishing the new post?"
+msgstr "Yeni yazı yayımlandıktan sonra ne olmasını istiyorsun?"
+
+#: templates/newpost.php:51 templates/updatepost.php:49
+#: inc/admin-toolbar.php:90 inc/admin.php:1471
+msgid "Clear All Cache"
+msgstr "Tüm Önbelleği Temizle"
+
+#: templates/newpost.php:55 templates/updatepost.php:56
+msgid "Clear Cache of Homepage"
+msgstr "Ana Sayfanın önbelleğini temizle"
+
+#: templates/newpost.php:56 templates/updatepost.php:54
+msgid "Clear Cache of Post Categories"
+msgstr "Tüm kategorilerin önbelleğini temizle"
+
+#: templates/newpost.php:57 templates/updatepost.php:55
+msgid "Clear Cache of Post Tags"
+msgstr "Tüm etiketlerin önbelleğini temizle"
+
+#: templates/newpost.php:68 templates/preload.php:112
+#: templates/updatepost.php:64
+msgid "OK"
+msgstr "Tamam"
+
+#: templates/nginx_gzip.php:9
+msgid "Enable Gzip"
+msgstr "Gzip Aktivasyonu"
+
+#: templates/preload.php:40
+msgid "Homepage"
+msgstr "Ana Sayfa"
+
+#: templates/preload.php:96
+msgid "pages per minute"
+msgstr "sayfa her dakika"
+
+#: templates/preload.php:101
+msgid "Restart After Completed"
+msgstr "Tekrar Başlat Tamamlandıktan Sonra"
+
+#: templates/timeout.php:68
+msgid "Cache Timeout Wizard"
+msgstr "Önbellek Zaman Aşımı Sihirbazı"
+
+#: templates/timeout.php:124
+msgid "Then"
+msgstr "O zaman"
+
+#: templates/timeout.php:141
+msgid "Choose One"
+msgstr "Birini Seç"
+
+#: templates/timeout.php:169
+msgid "delete the files"
+msgstr "tüm dosyaları temizle"
+
+#: templates/timeout.php:189
+msgid "Server Time"
+msgstr "Sunucu Zamanı"
+
+#: templates/update_now.php:9
+msgid "Please Update"
+msgstr "Lütfen Güncelleştir"
+
+#: templates/update_success.php:9
+msgid "Success"
+msgstr "Başarılı"
+
+#: templates/updatepost.php:29
+msgid "What do you want to happen after update a post or a page?"
+msgstr "Yazı veya sayfa güncellendikten sonra ne olmasını istiyorsun?"
+
+#: templates/updatepost.php:53
+msgid "Clear Cache of Post / Page"
+msgstr "Yazı ya da sayfanın önbelleğini temizle"
+
+#: templates/exclude.php:99 inc/admin.php:1782
+msgid "Archives"
+msgstr "Arşivler"
+
+#: templates/preload.php:65
+msgid "Custom Post Types"
+msgstr "Özel İçerik Türleri"
+
+#: wpFastestCache.php:1791
+msgid "Once Every 7 Days"
+msgstr "7 günde bir kez"
+
+#: wpFastestCache.php:1803
+msgid "Once Every 15 Days"
+msgstr "15 günde bir kez"
+
+#: wpFastestCache.php:1785
+msgid "Once Every 3 Days"
+msgstr "3 günde bir kez"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/wp-fastest-cache/"
+msgstr "http://wordpress.org/plugins/wp-fastest-cache/"
+
+#. Author of the plugin
+msgid "Emre Vona"
+msgstr "Emre Vona"
+
+#. Author URI of the plugin
+msgid "http://tr.linkedin.com/in/emrevona"
+msgstr "http://tr.linkedin.com/in/emrevona"
+
+#: wpFastestCache.php:1695
+msgid "Once Every 1 Minute"
+msgstr "Her dakika"
+
+#: wpFastestCache.php:1701
+msgid "Once Every 5 Minutes"
+msgstr "5 dakikada bir kez"
+
+#: wpFastestCache.php:1707
+msgid "Once Every 15 Minutes"
+msgstr "15 dakikada bir kez"
+
+#: wpFastestCache.php:1713
+msgid "Twice an Hour"
+msgstr "Saatte iki kez"
+
+#: wpFastestCache.php:1719
+msgid "Once an Hour"
+msgstr "Saatte bir kez"
+
+#: wpFastestCache.php:1725
+msgid "Once Every 2 Hours"
+msgstr "2 saatte bir kez"
+
+#: wpFastestCache.php:1731
+msgid "Once Every 3 Hours"
+msgstr "3 saatte bir kez"
+
+#: wpFastestCache.php:1737
+msgid "Once Every 4 Hours"
+msgstr "4 saatte bir kez"
+
+#: wpFastestCache.php:1743
+msgid "Once Every 5 Hours"
+msgstr "5 saatte bir kez"
+
+#: wpFastestCache.php:1749
+msgid "Once Every 6 Hours"
+msgstr "6 saatte bir kez"
+
+#: wpFastestCache.php:1755
+msgid "Once Every 7 Hours"
+msgstr "7 saatte bir kez"
+
+#: wpFastestCache.php:1761
+msgid "Once Every 8 Hours"
+msgstr "8 saatte bir kez"
+
+#: wpFastestCache.php:1767
+msgid "Once Every 9 Hours"
+msgstr "9 saatte bir kez"
+
+#: wpFastestCache.php:1773
+msgid "Once Every 10 Hours"
+msgstr "10 saatte bir kez"
+
+#: wpFastestCache.php:1779
+msgid "Once a Day"
+msgstr "Günde bir kez"
+
+#: wpFastestCache.php:1797
+msgid "Once Every 10 Days"
+msgstr "10 günde bir kez"
+
+#: wpFastestCache.php:1809
+msgid "Once a Month"
+msgstr "Ayda bir kez"
+
+#: wpFastestCache.php:1815
+msgid "Once a Year"
+msgstr "Yılda bir kez"
+
+#. Plugin Name of the plugin
+msgid "WP Fastest Cache"
+msgstr "WP Fastest Cache"
+
+#. Description of the plugin
+msgid "The simplest and fastest WP Cache system"
+msgstr "En basit ve en hızlı wp cache sistemi"
